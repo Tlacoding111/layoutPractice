@@ -1,0 +1,139 @@
+/*=============Body=========*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merriweather";
+    line-height: 1.6;
+    margin: 0;
+}
+
+p {
+    font-size: .95em;
+    margin-bottom: 1.8em;
+}
+
+h2 {
+    color: #093a58;
+    margin-top: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 200px;
+}
+
+img,
+.feat-img {
+    height: 300px;
+    width: 300px;
+}
+
+.feat-img {
+    border-radius: 0;
+    width: 95%;
+}
+/*============Main Header=========*/
+
+.main-header {
+    /* background-color: skyblue; */
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+/*============Navigation=========*/
+
+.name a {
+    color: blue;
+    font-size: 1em;
+    margin: 0;
+}
+
+.main-nav {
+    margin-top: 5px;
+}
+
+.name a,
+.main-nav a {
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+}
+
+.main-nav a {
+    font-size: .95em;
+    color: blue;
+    text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+/*============Layout Containers=========*/
+
+.banner {
+    color: #fff;
+    background: #3acec2;
+    padding: 3.2em 0;
+    margin-bottom: 48px;
+}
+
+.col {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.main-footer {
+	background: #d9e4ea;
+	padding: 2em 0;
+	margin-top: 30px; 
+}
+
+.banner,
+.main-footer {
+    text-align: center;
+}
+
+/*============Media Queries=========*/
+
+@media (min-width: 769px) {
+    .main-header,
+    .row {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .tagline {
+        font-size: 1.4em;
+    }
+
+    .col {
+        background-color: dodgerblue;
+        border: 2px solid black;
+    }
+}
+
+@media (min-width: 1025px) {
+    .main-header,
+    .row {
+        width: 80%;
+        max-width: 1150px;
+    }
+}
